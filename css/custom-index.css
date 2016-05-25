@@ -1,0 +1,130 @@
+.new-note{
+	max-width:350px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 50px;
+	margin-top: 40px;
+	border: 2px solid grey;
+	padding: 10px;
+	background-color: white;
+}
+
+.note-header{
+	border-bottom: 1px solid black;
+	font-weight: bold;
+	min-height: 40px;
+	padding: 10px;
+	font-size: 25px;
+}
+
+.modal .note-header{
+	border: none;
+}
+
+.note-text{
+	font-family: Quicksand;
+	font-size: 20px;
+	min-height: 150px;
+	padding: 10px;
+}
+
+.note-text:focus,
+.note-header:focus{
+	outline: none;
+}
+
+.old-note{
+	border: 1px solid lightgrey;
+	min-height: 175px;
+	margin-bottom: 25px; 
+	padding: 35px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: white;
+	word-wrap: break-word;
+}
+
+.old-note p{
+	font-family: Quicksand;
+	font-size: 20px;
+}
+
+.old-note h1{
+	margin-left: -10px;
+	font-weight: bold;
+}
+
+.old-note:hover{
+	box-shadow: 5px 10px 20px rgba(100,100,100,0.7);
+}
+@font-face {
+    font-family: Quicksand;
+    src: url(../fonts/Quicksand-Regular.otf);
+}
+
+.only-note p{
+	font-size: 25px;
+}
+
+.note-block{
+	min-height: 150px;
+}
+
+.btn-raw{
+	margin-left: -25px;
+	visibility: hidden;
+	height: 25px;
+}
+
+.old-note:hover .btn-raw{
+	visibility: visible;
+}
+
+.user-logo{
+	width: 60px;
+	height: 60px;
+	border-radius: 60px;
+	border: 1px solid black;
+	background-color: #990073;
+	color: white;
+	line-height: 60px;
+	font-size: 40px;
+	font-weight: bold;
+	text-align: center; 
+	display: inline-block;
+	margin-top: 30px; 
+	margin-left: 20px;
+	outline: none;
+}
+
+.popover{
+	width: 250px;
+	padding-top: 5px;
+	text-align: justify;
+}
+
+hr{
+	margin: 0;
+	margin-bottom: 3px;
+}
+
+@media(max-width: 767px){
+	.navbar-brand{
+		margin-left: -15px;
+	}
+}
+
+.modal-dialog{
+	max-width: 400px;
+	border-radius: 10px;
+	margin-top: 200px;
+}
+
+.modal-header{
+	font-size: 25px;
+}
+
+div[placeholder]:empty:before {
+    content: attr(placeholder);
+    color: rgb(150,150,150); 
+}

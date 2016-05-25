@@ -1,0 +1,48 @@
+.form-registration {
+  max-width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 15px;
+  background-color: indigo;
+  color: brown;
+}
+
+.form-registration-heading{
+	text-align: center;
+}
+
+.form-registration .form-registration-heading{
+  margin-bottom: 15px;
+}
+
+.text-error{
+	font-weight: bold;
+	color: red;
+}
+
+.white-box{
+  max-width: 565px;
+  border-top: 2px solid black;
+  border-radius: 0 0 15px 15px;
+  background-color: white;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-top: 15px;
+  padding-bottom: 5px;
+}
+.help-block{
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.form-group{
+  margin-bottom: 5px;
+}
+
+.btn{
+  margin-top: 10px;
+}
